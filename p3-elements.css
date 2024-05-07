@@ -862,7 +862,6 @@ table[style^="margin:0;"][style*="margin:0;"] :is(tbody, tr, td) {
     font-family: var(--UI-font);
     font-size: var(--true-font-size);
     font-weight: bold;
-    text-transform: uppercase;
     background-color: rgb(var(--basalt-UI-dark-palette));
     color: rgb(var(--basalt-light-text-color));
     width: max-content;
