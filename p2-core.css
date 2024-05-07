@@ -99,6 +99,8 @@
 	--side-bar-unfolded-heading-text-color: var(--basalt-light-text-color);
 	--side-bar-unfolded-heading-background-color: var(--basalt-UI-dark-palette);
 	--side-bar-link-transition: var(--header-link-transition-1st);
+	--side-bar-link-font-size: calc(var(--base-font-size)*.925);
+	--side-bar-link-small-font-size: calc(var(--side-bar-link-font-size)*.875);
 
 	--main-content-width: 67.5rem;
 	--main-content-top-margin: .325rem;
@@ -971,7 +973,7 @@ div#account-options > ul > li > a:is(:hover, :focus)::before,
 	width: var(--side-bar-width);
 	max-width: calc(100% - 3.75rem);
 	box-sizing: border-box;
-	font-size: calc(var(--base-font-size)*0.925);
+	font-size: var(--side-bar-link-font-size);
 	background-color: rgb(var(--side-bar-background-color));
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -1035,7 +1037,7 @@ div#account-options > ul > li > a:is(:hover, :focus)::before,
 	background-color: rgb(var(--side-bar-background-color));
 }
 #interwiki body {
-	font-size: calc(var(--base-font-size)*0.925);
+	font-size: var(--side-bar-link-font-size);
 }
 
 :is(#side-bar, #interwiki) .side-block {
@@ -1187,7 +1189,7 @@ div#account-options > ul > li > a:is(:hover, :focus)::before,
 }
 
 :is(#side-bar, #interwiki) .menu-item.small a {
-	font-size: calc(var(--true-font-size) * .875);
+	font-size: var(--side-bar-link-small-font-size);
 	padding-block: .325em;
 }
 
