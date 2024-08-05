@@ -2,23 +2,6 @@
 /* ----- BASE FONTS ----- */
 /* ---------------------- */
 
-/* ---- Inter (variable) ---- */
-@font-face {
-	font-family: Inter;
-	font-style: normal;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('./fonts/Inter-roman.var.woff2?v=3.19') format('woff2');
-}
-
-@font-face {
-	font-family: Inter;
-	font-style: italic;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('./fonts/Inter-italic.var.woff2?v=3.19') format('woff2');
-}
-
 /* ---- JetBrains Mono ---- */
 @font-face {
 	font-family: 'JetBrains Mono';

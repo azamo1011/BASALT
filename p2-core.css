@@ -29,7 +29,7 @@
 
 	--header-font-primary: 'Lexend';
 	--UI-font-primary: 'Jost';
-	--body-font-primary: 'Inter';
+	--body-font-primary: 'InterVariable';
 	--mono-font-primary: 'JetBrains Mono';
 	--header-font-fallback: franklin gothic medium, franklin gothic, itc franklin gothic, 'Helvetica Neue', 'Helvetica', arial, sans-serif;
 	--UI-font-fallback: -apple-system, system-ui, blinkmacsystemfont, 'Segoe UI', roboto, oxygen-sans, ubuntu, cantrell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
