@@ -1,3 +1,7 @@
+/* imports(s) */
+
+@import url('https://rsms.me/inter/inter.css');
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -218,23 +222,6 @@ button:-moz-focusring,
 /* ---------------------- */
 /* ----- BASE FONTS ----- */
 /* ---------------------- */
-
-/* ---- Inter (variable) ---- */
-@font-face {
-	font-family: Inter;
-	font-style: normal;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('./fonts/Inter-roman.var.woff2?v=3.19') format('woff2');
-}
-
-@font-face {
-	font-family: Inter;
-	font-style: italic;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('./fonts/Inter-italic.var.woff2?v=3.19') format('woff2');
-}
 
 /* ---- JetBrains Mono ---- */
 @font-face {
@@ -489,7 +476,7 @@ button:-moz-focusring,
 
 	--header-font-primary: 'Lexend';
 	--UI-font-primary: 'Jost';
-	--body-font-primary: 'Inter';
+	--body-font-primary: 'InterVariable';
 	--mono-font-primary: 'JetBrains Mono';
 	--header-font-fallback: franklin gothic medium, franklin gothic, itc franklin gothic, 'Helvetica Neue', 'Helvetica', arial, sans-serif;
 	--UI-font-fallback: -apple-system, system-ui, blinkmacsystemfont, 'Segoe UI', roboto, oxygen-sans, ubuntu, cantrell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
